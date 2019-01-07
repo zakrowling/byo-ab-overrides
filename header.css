@@ -239,6 +239,10 @@ body {
         margin-top: 2px;
     }
     
+    .departure-time-filter .departure-time-filter-display {
+        width: 30%;
+    }
+    
     /* Sidebar flights */
     .flight-filters {
         position: sticky;
