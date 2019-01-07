@@ -184,6 +184,43 @@ body {
         display: block;
     }
     
+    .airline-filter-item,
+    .airline-filters-section {
+        display: block !important;
+    }
+    
+    .airline-filter-item {
+        flex-direction: normal;
+        width: 100%;
+        margin-bottom: 2px;
+        text-align: left;
+        border-radius: 2px;
+        border-color: #ccc;
+    }
+    
+    .airline-filter-item img {
+        width: 30px;
+    }
+    
+    .airline-footer,
+    .airline-footer div,
+    .airline-filter-item-title {
+        display: inline;
+    }
+    
+    .airline-filter-item .airline-filter-item-from,
+    .airline-filter-item .airline-filter-item-price {
+        font-size: 0.8em;
+    }
+    
+    .airline-filter-item-from {
+        text-transform: lowercase;
+    }
+    
+    .airlines-filter .airline-filter-item-section+.airline-filter-item-section {
+        margin: 0;
+    }
+    
     .stop-filter-item {
         border-radius: 3px;
         text-align: left;
