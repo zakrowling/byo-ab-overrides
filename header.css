@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+@media (min-width: 70em) {
+    .hero-container {
+        display: none;
+    }
+    
+    .common-header {
+        height: auto;
+    }
+    
+    .logo-header,
+    .common-header .content {
+        width: auto;
+        max-width: 1160px;
+    }
+    
+    .logo-header .logo-image {
+        padding: 23px 20px 0 20px;
+        width: 140px;
+    }
+    
+    .common-header .content {
+        max-width: 100%;
+        background: #fff;
+        height: 90px;
+        margin-bottom: 40px;
+        border-bottom: 1px solid #dcdcdc;
+    }
+    
+    .logo-header .logo-image {
+        float: left;
+        margin-top: 0;
+    }
+    
+    .common-header .summary  {
+        margin: 0;
+        line-height: 1.4em;
+        width: 70%;
+        height: 90px;
+        display: flex;
+        align-items: center;
+        transition: all 0.3s ease;
+    }
+    
+    .common-header .content .summary .header {
+        background: none;
+        float: none;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    
+    .common-header .checkout-header-button {
+        padding: 0.4em 1em 1.2em;
+        position: relative;
+        top: 0;
+        right: 16px;
+        margin-left: 10px;
+        background: none;
+        color: #333;
+        font-size: 0.6em;
+        border: 1px #efefef solid;
+        border-radius: 3px;
+        transition: all 0.3s ease;
+    }
+    
+    .common-header .checkout-header-button:hover {
+        border-color: #cdcdcd;
+        box-shadow: 0px 2px 2px rgba(0,0,0,0.1);
+    }
+    
+    .common-header .modify-search-button:hover {
+        border-color: #333;
+    }
+    
+    .common-header .summary .where,
+    .common-header .summary .when,
+    .common-header .summary .who {
+        font-size: 0.9em !important;
+        color: #343434;
+        padding: 35px 10px;
+        border-left: 1px #efefef solid;
+    }
+    
+    .common-header .summary .who {
+        border-right: 1px #efefef solid;
+    }
+    
+    .common-header .summary .where {
+        font-weight: bold;
+    }
+    
+    .common-header .sign-in,
+    .common-header .sign-out {
+        background: #fff;
+        color: #07d;
+        padding: 1.8em;
+    }
+    
+    .common-header .sign-in:hover,
+    .common-header .sign-out:hover {
+        background-color: transparent;
+        color: #08d;
+    }
+    
+    .sidebar-price-summary .total-price {
+      color: #2ed06e;
+    }
+    
+    .modify-search.desktop {
+        right: -128px;
+        top: 76px;
+        box-shadow: 0px 2px 3px #ccc;
+        -webkit-box-shadow: 0px 2px 3px #ccc;
+        border: 1px #dcdcdc solid;
+    }
+    
+    .modify-search.desktop-layout {
+        left: 0;
+        right: auto;
+    }
+    
+    
+    /* Progress bar */
+    .header-progress-bar {
+        background-color: transparent;
+        color: #999;
+        font-size: 0.8em;
+        width: 800px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .header-progress-bar .steps-intro,
+    .header-progress-bar .step-number-circle {
+        display: none;
+    }
+    
+    .header-progress-bar .step {
+        margin: 0;
+    }
+    
+    .header-progress-bar .step-name {
+        padding: 0 1em;
+    }
+    
+    .header-progress-bar .step-name.current {
+        font-weight: bold;
+        color: #07d;
+        padding-bottom: 22px;
+        border-bottom: 3px #07d solid;
+    }
+    
+    .header-progress-bar .steps-container {
+        justify-content: center;
+        -webkit-justify-content: center;
+    }
+    
+    /* Sidebar airline filter
+    
+    .airlines-filter .airline-filters-section {
+        display: block;   
+    }
+    
+    .airlines-filter .airline-filter-item-section {
+        display: inline;
+        position: relative;
+    }
+    
+    .airlines-filter .airline-filter-item {
+        display: block;
+        border-radius: 3px;
+        width: auto;
+        text-align: left;
+    }
+    */
+    
+    .stops-filter .stop-filter-item-section {
+        display: block;
+    }
+    
+    .stop-filter-item {
+        border-radius: 3px;
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        width: auto;
+    }
+    
+    .stop-filter-item-price {
+        padding-top: 2px;
+        font-size: 0.8em;
+    }
+    
+    .stops-filter .stop-filter-item-section+.stop-filter-item-section {
+        margin-left: 0;
+        margin-top: 2px;
+    }
+    
+    /* Sidebar flights */
+    .flight-filters {
+        position: sticky;
+        position: -webkit-sticky;
+        top: 10px;
+    }
+    
+    .sidebar-price-summary {
+        border-bottom: 0;
+    }
+    
+    .checkout .checkout-side-bar>div {
+        margin-bottom: 0;
+    }
+    
+    .flight-journey .journey-header {
+        text-align: left;
+    }
+    
+    .flight-journey .journey-header img {
+        display: none;
+    }
+    
+}
+
+/* Mobile */
+
+@media (max-width: 70em) {
+    .common-header {
+        position: relative;
+    }
+    
+    .logo-header {
+        text-align: left;
+        background-color: #fff;
+    }
+    
+    .logo-header .logo-image {
+        margin: 0;
+        width: 100px;
+        padding: 10px;
+    }
+    
+    .common-header {
+        height: 200px;
+    }
+    
+    .common-header .content {
+        display: block !important;
+        box-sizing: border-box;
+        position: relative;
+        height: 100%;
+        width: 100vw;
+        background-color: rgba(25,30,29,.5);
+    }
+    
+    .common-header .content .summary {
+        margin: 0;
+        position: absolute;
+        bottom: 20px;
+        top: auto;
+        width: 100%;
+        padding-left: 15px;
+    }
+    
+    .common-header .hero-container {
+        position: absolute;
+        padding-bottom: 0;
+    }
+    
+    .common-header .content .summary .header {
+        float: none;
+        margin: 0;
+        background-color: transparent;
+    }
+    
+    .common-header .sign-in,
+    .common-header .sign-out,
+    .common-header .sign-in:hover,
+    .common-header .sign-out:hover {
+        padding: 5px 20px;
+        background: #fff;
+        color: #2083fe;
+    }
+    
+    .header-progress-bar {
+        display: none;
+    }
+    
+    .common-header .checkout-header-button {
+        right: 25px;
+        top: -2.8rem;
+        font-size: 0.8em;
+        border-radius: 2px;
+    }
+    
+    .common-header .content .summary .where,
+    .common-header .content .summary .when,
+    .common-header .content .summary .who {
+        font-size: 1em;
+    }
+    
+    .common-header .content .summary .where {
+        font-weight: bold;
+    }
+    
+    .common-header .content .summary .who {
+        font-weight: 200;
+    }
+}
+
+.common-header .content-mobile {
+    display: none !important;
+}
+
+#detailsBar {
+    position: fixed;
+    top: auto;
+    bottom: 0;
+    z-index: 100;
+}
+
+.common-header .summary .summary-item {
+    margin: 0;
+}
