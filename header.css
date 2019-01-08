@@ -180,6 +180,11 @@ body {
     }
     */
     
+    .flight-filters .flight-filters-container {
+        background: none;
+        border: none;
+    }
+    
     .airlines-filter .airline-filters-section {
         max-height: 221px;
         overflow-y: scroll;
