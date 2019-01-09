@@ -188,9 +188,8 @@ body {
     }
     
     .airlines-filter .airline-filters-section {
-        max-height: 221px;
-        overflow-y: scroll;
-        padding-right: 4px;
+        max-height: 204px;
+        overflow-y: auto;
     }
     
     .stops-filter .stop-filter-item-section {
