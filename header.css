@@ -235,6 +235,7 @@ body {
         text-align: left;
         border-radius: 2px;
         border-color: #ccc;
+	background-color: transparent;
     }
     
     .airline-filter-item img {
@@ -266,6 +267,7 @@ body {
         display: flex;
         justify-content: space-between;
         width: auto;
+	background-color: transparent;
     }
     
     .stop-filter-item-price {
