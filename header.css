@@ -5,8 +5,8 @@ body {
 }
 
 .app-page .page-heading, .app-page .passenger-details .passenger-display-name, .passenger-details .app-page .passenger-display-name {
-	color: #000;
-	font-size: 24px;
+    color: #000;
+    font-size: 24px;
 }
 	
 @media (min-width: 70em) {
