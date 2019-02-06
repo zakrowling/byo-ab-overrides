@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700');
 
 body {
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .app-page .page-heading, .app-page .passenger-details .passenger-display-name, .passenger-details .app-page .passenger-display-name {
